@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+*{
+font-family: 'Roboto Slab', serif;
+}
+.bg-image {
+background: url('../image/job-interview-4.jpg');
+background-size: 100% 100%;
+background-attachment: fixed;
+background-repeat: no-repeat;
+width: 100%;
+height: 750px;
+}
+/*.navbar{
+position: fixed;
+}*/
+.navbar .nav-item nav-link:hover {
+background: #ff9f43;
+font-size: 20px;
+padding: 15px 30px;
+display: block;
+/*width: 100%;*/
+}
+.dropdown .dropdown-menu .dropdown-item:hover {
+background: #fff;
+}
+.navbar-dark {
+opacity: 0.7;
+}
+.headersett {
+padding-top: 250px;
+box-sizing: border-box;
+}
+.headersett h1 {
+font-weight: bold;
+font-size: 60px;
+}
+.headersett h3 {
+/*font-weight: bold;*/
+font-size: 39px;
+}
+.ourservices {
+padding: 100px 0 60px;
+height: 500px;
+}
+.rowsetting {
+margin: 50px 0;
+}
+.ourservices  .as i{
+color: #e67e22;
+transition: 1s;
+}
+.ourservices  .as i:hover{
+    transform: scale(1.4);
+}
+.ourservices h2 {
+font-size: 45px;
+font-weight: bold;
+}
+/*.imgsettings{
+background: orange;
+}*/
+.myservices {
+padding: 40px 0 60px;
+height: 600px;
+}
+.myservices h2 {
+margin: 50px 0;
+}
+.lila {
+padding: 160px 100px;
+text-align: center;
+background: #D8D8D8;
+color: #000000;
+margin: 60px auto;
+}
+section h2{
+font-weight: bold;
+}
+.gallery-poster{
+color: black;
+text-align: center;
+margin-top: 40px;
+margin-bottom: 30px;
+font-weight: bold;
+font-size: 40px;
+}
+.gallery-item{
+position: relative;
+transition: .5s;
+}
+.gallery-item img{
+height: 240px;
+}
+.overlay{
+height: 100%;
+width: 100%;
+background: rgba(140, 122, 230, .5);
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 0;
+opacity: 0;
+transition: .5s;
+}
+.overlay a{
+text-decoration: none;
+color: rgba(230, 126, 34, 1);
+font-size: 35px;
+transition: .7s;
+}
+.overlay a:hover{
+transform: rotate(360deg);
+}
+.gallery-item:hover{
+transform: scale(1.2);
+}
+.gallery:hover .overlay{
+opacity: 1;
+}
+.c1 {
+background: #FFFFFF;
+padding: 80px 150px;
+/*ackground: url("2.png");
+background-repeat: no-repeat;
+background-size: auto;*/
+border-top: 6px dashed blue;
+border-left: 6px dashed red;
+border-right: 6px dashed red;
+border-bottom: 6px dashed blue;
+text-align: center;
+margin: -80px 0;
+/*right: 80px;*/
+}
+.c1 p {
+margin: 40px 0;
+/*margin: 40px 60px;*/
+font-size: 25px;
+/*text-align: center;*/
+}
+.email {
+height: 40px;
+display: flex;
+justify-content: center;
+}
+.email i {
+background: #000;
+width: 40px;
+color: #FFFFFF;
+line-height: 40px;
+}
+.box,
+.btnn {
+outline: none;
+border: none;
+}
+.email:hover > .box,
+.box:focus {
+width: 250px;
+padding: 0 10px;
+/*color: #020202;*/
+}
+.box {
+width: 0px;
+transition: .7s;
+background: #DEFFFF;
+}
+.btnn {
+color: #FFFFFF;
+background: #4522DC;
+padding: 0 10px;
+text-transform: uppercase;
+}
+.email:hover > .btnn,
+.btnn:focus {
+background: #E5B619;
+color: #FFFFFF;
+}
+.contact-section {
+background: url(../image/bg.png) no-repeat center;
+background-size: cover;
+padding: 40px 0;
+}
+.contact-section h1 {
+text-align: center;
+color: #ddd;
+}
+.border {
+width: 150px;
+height: 5px;
+background: #e67e22;
+margin: 40px auto;
+}
+.contact-form {
+max-width: 600px;
+margin: auto;
+padding: 0 10px;
+overflow: hidden;
+}
+.contact-form-text {
+display: block;
+width: 100%;
+box-sizing: border-box;
+margin: 16px 0;
+border: 0;
+background: #111;
+padding: 20px 40px;
+outline: none;
+color: #ddd;
+transition: 0.5s;
+}
+.contact-form-text:focus {
+box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text {
+resize: none;
+height: 120px;
+}
+.contact-form-btn {
+float: right;
+border: 0;
+/*background: #34495e;*/
+background: rgba(230, 126, 34, .5);
+color: #fff;
+padding: 12px 50px;
+border-radius: 20px;
+cursor: pointer;
+transition: 0.5s;
+}
+.contact-form-btn:hover {
+background: #e67e22;
+}
+footer {
+width: 100%;
+height: 97px;
+background: #ff9f43;
+color: white;
+/*text-align: center;*/
+display: flex;
+text-transform: uppercase;
+justify-content: center;
+/*align-items: center;*/
+}
+.env{
+  margin-right: 150px;
+}
+/*footer p {
+margin-top: 10px;
+}*/
